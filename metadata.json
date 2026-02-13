@@ -1,0 +1,7 @@
+{
+  "name": "Taste Track",
+  "description": "A food rating and price tracking application with barcode scanning capabilities.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
