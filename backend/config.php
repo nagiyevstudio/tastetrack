@@ -9,7 +9,7 @@ $password = 'Q*c6!3yA$cxpYRakJ48n'; // Set your MySQL password here
 // IMPORTANT:
 // 1) Set a long random pepper string.
 // 2) Put SHA256(password + pepper) into app_auth.password_hash (id = 1).
-$auth_password_pepper = 'change-this-pepper-to-a-long-random-string';
+$auth_password_pepper = '9dF3!xP7@kR2#uM8$hQ5^vL1&cN4*eJ6!tS0%wB3@zY';
 $auth_session_ttl_seconds = 60 * 60 * 12; // 12h
 $auth_rate_limit_max_attempts = 8;
 $auth_rate_limit_window_seconds = 15 * 60; // 15m
@@ -19,6 +19,7 @@ $auth_rate_limit_window_seconds = 15 * 60; // 15m
 $auth_allowed_origins = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
+    'https://tt.nagiyev.com'
 ];
 
 try {
@@ -33,3 +34,4 @@ try {
     exit();
 }
 ?>
+
